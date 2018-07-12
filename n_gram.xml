@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_151" class="java.beans.XMLDecoder">
+ <object class="wordrepresentation.N_Gram" id="N_Gram0">
+  <void property="bag">
+   <void method="put">
+    <string>&lt;unk&gt;</string>
+    <int>0</int>
+   </void>
+   <void method="put">
+    <string>John likes</string>
+    <int>1</int>
+   </void>
+   <void method="put">
+    <string>likes to</string>
+    <int>2</int>
+   </void>
+   <void method="put">
+    <string>to watch</string>
+    <int>2</int>
+   </void>
+   <void method="put">
+    <string>watch movies</string>
+    <int>1</int>
+   </void>
+   <void method="put">
+    <string>movies Mary</string>
+    <int>1</int>
+   </void>
+   <void method="put">
+    <string>Mary likes</string>
+    <int>1</int>
+   </void>
+   <void method="put">
+    <string>likes movies</string>
+    <int>1</int>
+   </void>
+   <void method="put">
+    <string>movies too</string>
+    <int>1</int>
+   </void>
+   <void method="put">
+    <string>John also</string>
+    <int>1</int>
+   </void>
+   <void method="put">
+    <string>also likes</string>
+    <int>1</int>
+   </void>
+   <void method="put">
+    <string>watch football</string>
+    <int>1</int>
+   </void>
+   <void method="put">
+    <string>football games</string>
+    <int>1</int>
+   </void>
+  </void>
+  <void property="n">
+   <int>2</int>
+  </void>
+ </object>
+</java>
