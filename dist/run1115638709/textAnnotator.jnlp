@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="textAnnotator.jnlp">
+  <information>
+    <title>textAnnotator</title>
+    <vendor>Fadi</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="lib\CRF-1.2.0.jar" size="149828" download="eager" />
+    <jar href="lib\LibSVM-1.0.10.jar" size="15910" download="eager" />
+    <jar href="lib\libsvm.jar" size="55185" download="eager" />
+    <jar href="lib\weka.jar" size="11025147" download="eager" />
+    <jar href="textAnnotator.jar" size="21408" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="textAnnotator" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="textannotator.App"  name="textAnnotator" />
+  <update check="always"/>
+</jnlp>
